@@ -1,0 +1,116 @@
+
+header{
+	background-color: green;
+	padding: 1px;
+	text-align: center;
+	color: white;
+	font-family: comic sans ms;
+	max-width: 100%;
+	
+	text-transform: uppercase;
+	word-spacing: 5px;
+
+
+}
+header h4{
+		text-decoration: underline;
+		font-style: italic;
+         }
+body{
+	margin: 1px;
+	background-color: f1f1f1;
+}
+p{
+	text-align: justify;
+	text-transform: uppercase;
+}
+nav{
+	overflow: hidden;
+	background-color:black ;
+
+}
+nav a{
+	float: left;
+	color: white;
+	padding:14px 16px;
+	text-decoration-line: none; 
+	background-color: black;
+	color:white;
+
+}
+
+
+nav a:hover{
+	background-color:#008ff0;
+	color: white;
+}
+.column{
+	float: left;
+	padding: 10px;
+}
+.column .side{
+	width:20%;
+}
+.column .middle{
+	width: 50%;
+}
+
+}
+
+
+div.gallery{
+	margin: 5px;
+	border: 5px solid black;
+	float: left;
+	width: 200px;
+}
+div.gallery img
+{
+	width: 100%;
+	hight:auto;
+}
+
+div.gallery:hover{
+	margin: 5px;
+	border: 5px solid red;
+	
+	width: 300px;
+}
+div.desc{
+	padding: 15px;
+	text-align: left;
+}
+input[type=text],select,textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=text],select,textarea{
+	background-color: green;
+	color: white;
+	padding: 12px 20px;
+	cursor: pointer;
+	border: none;
+	margin: 2px;
+}
+
+footer{
+clear: both;
+background-color: green;
+padding: 8px;
+text-align: center;
+color: white;
+}
+@media screen and (max-width: 617px){
+	.column.side,.column.middle{
+		width: 100%;
+		color: green;
+	}
+p{
+	text-align: justify;
+}
+
+
